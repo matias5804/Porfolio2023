@@ -21,7 +21,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Matias Alonso
+          Matias Alonso Pisani
         </p>
       </div>
       <p className="read-the-docs">
