@@ -4,7 +4,7 @@ import cvES from '../../../assets/img/pictures/cv2023large.jpg'
 import cvEspañol from '../../../assets/img/pictures/CV2023español.pdf'
 import cvIngles from '../../../assets/img/pictures/CV2023english.pdf'
 import FooterCv from '../../footer/FooterCv'
-
+import "./cv.css"
 
 const Cv = () => {
   return (

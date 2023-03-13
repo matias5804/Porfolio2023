@@ -12,7 +12,7 @@ const FooterCv = () => {
     <div className='footer footerCV'>
         <div className='footerDos '>
             <ul className="ulFooter">
-{/*                <Link to="/" element={<Home/>} className=' linkMenuFooter'>
+               <Link to="/" element={<Home/>} className=' linkMenuFooter'>
                     <li className='nav__item'>Home</li>
                 </Link>
 
@@ -30,7 +30,7 @@ const FooterCv = () => {
 
                 <Link to="../Pages/Cv" element={<Cv/>} className=' linkMenuFooter'>
                     <li className='nav__item'>Resume</li>
-                </Link>*/}
+                </Link>
             </ul>
             
             <div className='divGitLinkFooter'>

@@ -1,6 +1,6 @@
 import React from 'react'
-import imgMoviesRespong from '../../assests/img/sliderPorfolio/moviesRespon.png'
-import videoMovies from '../../assests/movies/movies.mp4'
+import imgMoviesRespong from '../../assets/img/sliderPorfolio/moviesRespon.png'
+import videoMovies from '../../assets/movies/movies.mp4'
 
 const Movies = () => {
   return (

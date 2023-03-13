@@ -1,6 +1,6 @@
 import React from 'react'
-import imgGgtechRespon from '../../assests/img/sliderPorfolio/ggtechRespon.png'
-import videoGgtech from '../../assests/movies/ggtechTres.mp4'
+import imgGgtechRespon from '../../assets/img/sliderPorfolio/ggtechRespon.png'
+import videoGgtech from '../../assets/movies/ggtechTres.mp4'
 
 const Ggtech = () => {
   return (

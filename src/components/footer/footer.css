@@ -11,7 +11,7 @@
 }
 
 .divGitHubFooter{
-    background-image: url(../../assests/img/icons/GitHubLogoNBlanco.png);
+    background-image: url(../../assets/img/icons/GitHubLogoNBlanco.png);
     background-position: center;
     background-size: cover;
     height: 53px; 
@@ -19,12 +19,12 @@
 }
 
 .divGitHubFooter:hover{
-    background-image: url(../../assests/img/icons/GitHubLogoNNegro.png);
+    background-image: url(../../assets/img/icons/GitHubLogoNNegro.png);
     cursor: pointer;
 }
 
 .divLinkedFooter{
-    background-image: url(../../assests/img/icons/linkedInBlanco.png);
+    background-image: url(../../assets/img/icons/linkedInBlanco.png);
     background-size: cover;
     background-position: center;
     height: 53px;
@@ -32,7 +32,7 @@
 }
 
 .divLinkedFooter:hover{
-    background-image: url(../../assests/img/icons/linkedInNegro.png);
+    background-image: url(../../assets/img/icons/linkedInNegro.png);
     cursor: pointer;
 }
 
@@ -46,7 +46,7 @@
 .ulFooter{
     display: flex;
     width: 43rem;
-    gap: 1.5rem;
+    gap: 2rem;
     font-size: large;
     font-weight: 500;
 }
@@ -111,7 +111,7 @@
 }
 
 .footerDos{
-    background-image: url(../../assests/img/icons/montaniaFooter.png);
+    background-image: url(../../assets/img/icons/montaniaFooter.png);
     background-size: cover;
     width: 100%;
     display: flex;

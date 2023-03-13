@@ -19,7 +19,7 @@ a{
 
 .nav__menu img{
     width: 8vw;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .linkLinked{
@@ -43,7 +43,7 @@ a{
     font-size: larger;
     display: block;
     text-decoration: none;
-    padding: 15px;
+    padding: 12px;
     color:white;
     border-left:7px solid transparent ;
     transition: all 400ms ease;
@@ -101,7 +101,6 @@ a{
 .divGitLink{
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
     align-items: center;
     margin-top: 2rem;
 }

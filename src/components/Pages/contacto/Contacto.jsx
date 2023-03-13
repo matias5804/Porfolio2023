@@ -1,5 +1,6 @@
 import {  WhatsAppOutlined,MailOutlined ,LinkedinOutlined ,GithubOutlined } from '@ant-design/icons';
 import React from 'react'
+import "./contacto.css"
 
 const Contacto = () => {
   return (

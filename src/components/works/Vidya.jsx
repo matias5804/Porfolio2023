@@ -1,7 +1,7 @@
 import React from 'react'
-import ImgVidyaRespon from '../../assests/img/sliderPorfolio/vidyaRespon.png'
+import ImgVidyaRespon from '../../assets/img/sliderPorfolio/vidyaRespon.png'
 import './works.css'
-import videoVidya from '../../assests/movies/vidya.mp4'
+import videoVidya from '../../assets/movies/vidya.mp4'
 
 const Vidya = () => {
   return (

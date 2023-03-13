@@ -9,13 +9,13 @@ import "swiper/css/pagination";
 import "./carousel.css";
 import "swiper/css/navigation";
 
-import imgEliot from "../../assests/img/sliderPorfolio/eliotResponsive.png"
-import imgVidya from "../../assests/img/sliderPorfolio/vidyaResponsive.png"
-import imgMovies from "../../assests/img/sliderPorfolio/moviesResponsive.png"
-import imgTatoo from "../../assests/img/sliderPorfolio/tatooResponsive.png"
-import imgGgtech from "../../assests/img/sliderPorfolio/ggtechResponsive.png"
-import imgPokemon from "../../assests/img/sliderPorfolio/pokemonResponsive.png"
-import imgWeRemote from "../../assests/img/sliderPorfolio/weRemoteRespo.png"
+import imgEliot from "../../assets/img/sliderPorfolio/eliotResponsive.png"
+import imgVidya from "../../assets/img/sliderPorfolio/vidyaResponsive.png"
+import imgMovies from "../../assets/img/sliderPorfolio/moviesResponsive.png"
+import imgTatoo from "../../assets/img/sliderPorfolio/tatooResponsive.png"
+import imgGgtech from "../../assets/img/sliderPorfolio/ggtechResponsive.png"
+import imgPokemon from "../../assets/img/sliderPorfolio/pokemonResponsive.png"
+import imgWeRemote from "../../assets/img/sliderPorfolio/weRemoteRespo.png"
 
 // import required modules
 import { EffectCube, Navigation} from "swiper";

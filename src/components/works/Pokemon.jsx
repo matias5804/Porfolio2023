@@ -1,6 +1,6 @@
 import React from 'react'
-import imgPokemonRespon from '../../assests/img/sliderPorfolio/pokemonRespon.png'
-import videoPokemon from '../../assests/movies/pokemon.mp4'
+import imgPokemonRespon from '../../assets/img/sliderPorfolio/pokemonRespon.png'
+import videoPokemon from '../../assets/movies/pokemon.mp4'
 
 const Pokemon = () => {
   return (

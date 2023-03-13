@@ -1,6 +1,6 @@
 import React from 'react'
-import imgEliotRespon from '../../assests/img/sliderPorfolio/eliotRespon.png'
-import videoEliot from '../../assests/movies/eliot.mp4'
+import imgEliotRespon from '../../assets/img/sliderPorfolio/eliotRespon.png'
+import videoEliot from '../../assets/movies/eliot.mp4'
 
 const EliotNess = () => {
   return (

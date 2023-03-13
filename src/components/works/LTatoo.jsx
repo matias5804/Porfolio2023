@@ -1,6 +1,6 @@
 import React from 'react'
-import imgLtatooRespon from '../../assests/img/sliderPorfolio/lTatooRespon.png'
-import videoLt from '../../assests/movies/lT.mp4'
+import imgLtatooRespon from '../../assets/img/sliderPorfolio/lTatooRespon.png'
+import videoLt from '../../assets/movies/lT.mp4'
 
 const LTatoo = () => {
   return (
