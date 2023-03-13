@@ -1,32 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import './App.css'
+import Home from './components/Pages/home/Home'
+import WorkWithMe from './components/Pages/workWithMe/WorkWithMe'
+import Contacto from './components/Pages/contacto/Contacto'
+import Services from './components/Pages/services/Services'
+import Cv from './components/Pages/cv/Cv'
+import NavBarDos from './components/navBar/NavBarDos'
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Matias Alonso Pisani
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <BrowserRouter>
+        
+        <NavBarDos/>
+
+        <Routes>
+
+
+          <Route path="/" element={<Home/>}/>
+          <Route path="/Pages/Contacto" element={<Contacto/>}/>
+          <Route path="/Pages/Services" element={<Services/>}/>
+          <Route path="/Pages/WorkWithMe" element={<WorkWithMe/>}/>
+          <Route path="/Pages/Cv" element={<Cv/>}/>
+          <Route path="*" element={<Navigate to="/" />} />
+
+
+        </Routes>
+      
+      </BrowserRouter>
+
     </div>
   )
 }
