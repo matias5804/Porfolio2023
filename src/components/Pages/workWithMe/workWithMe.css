@@ -16,7 +16,6 @@
         color: white;
         display: flex;
         flex-direction: column;
-        gap: 30px;
         position: relative;
         width: 60%;
     }
@@ -55,12 +54,12 @@
     .divImgWork{
         position: relative;
         width: 50%;
-        height: 600px;
+        height: 100vh;
     }
 
     .divWorkWithMe{
         flex-direction: row;
-        height: 600px;
+        height: 100vh;
     }
 
     .imgSkills{
@@ -84,7 +83,7 @@
 
     .work{
         width: 60%;
-        gap: 1.5rem;
+        height:100vh;
         justify-content: space-between;
     }
 }
@@ -105,7 +104,6 @@
     .work{
         width: 60%;
         height: 100vh;
-        gap: 1.6rem;
     }
 
     .work h1{
