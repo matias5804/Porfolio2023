@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import cvES from '../../../assets/img/pictures/cv2023large.jpg'
-import cvEspañol from '../../../assets/img/pictures/CV2023español.pdf'
-import cvIngles from '../../../assets/img/pictures/CV2023english.pdf'
+import cvES from '../../../assets/img/pictures/cv-en-large.png'
+import cvEspañol from '../../../assets/img/pictures/Matias Alonso - FRONT-END español -2023.pdf'
+import cvIngles from '../../../assets/img/pictures/Matias Alonso - FRONT-END english -2023.pdf'
 import FooterCv from '../../footer/FooterCv'
 import "./cv.css"
 
